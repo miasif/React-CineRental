@@ -8,10 +8,10 @@ import WatchLater from "../assets/icons/watchLater.svg";
 export default function Sidebar() {
   return (
     <aside>
-      <ul class="space-y-2">
+      <ul className="space-y-2">
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg bg-primary text-black"
             href="#"
           >
             <img src={Trending} width="24" height="24" alt="Trending" />
@@ -20,7 +20,7 @@ export default function Sidebar() {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={NewRelease} width="24" height="24" alt="NewRelease" />
@@ -29,7 +29,7 @@ export default function Sidebar() {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={CommingSoon} width="24" height="24" alt="CommingSoon" />
@@ -38,7 +38,7 @@ export default function Sidebar() {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={Favourite} width="24" height="24" alt="Favourite" />
@@ -47,7 +47,7 @@ export default function Sidebar() {
         </li>
         <li>
           <a
-            class="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
+            className="flex items-center space-x-2 px-5 py-3.5 rounded-lg"
             href="#"
           >
             <img src={WatchLater} width="24" height="24" alt="WatchLater" />
